@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Create tltle -->
+		<title>Class list</title>
+		<!-- Create icon -->
+		<link rel="shortcut icon" type="image/png" href="/images/listicon.png">
+
+		<link rel = "stylesheet" href="/source/style.css">
+		<script language="javascript" src="/source/form.js"></script>
+		<script language="javascript" src="/source/create.js"></script>
+		<script language="javascript" src="/source/get.js"></script>
+		<script language="javascript" src="/source/delete.js"></script>
+		<script language="javascript" src="/source/update.js"></script>
+	</head>
+
+	<!-- Create body -->
+    <body>
+		<header>
+			<nav>
+				<table class = "table_header">
+					<tr>
+						<th class = "th_header" style="width:75px; text-align: center;">
+							<img src="/images/bk.png" alt="Bach_Khoa" style="width:60px;height:60px;">
+						</th>
+						<th class = "th_header" style = "min-width: 350px; ">
+							<h2 style= "font-size:90%; color: lightcoral;">TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐHQG TP.HCM</h2>
+							<h1 style= "font-size:150%; line-height: 0; color:darkblue;">BACH KHOA CLASS LIST</h1>
+						</th>
+						<th class = "th_header">
+							<ul>
+								<li>
+								  	<a href="https://mybk.hcmut.edu.vn/" target="_blank">MYBK</a>
+								</li>
+								<li>
+								  	<a href="http://e-learning.hcmut.edu.vn/" target="_blank">BKEL</a>
+								</li>
+								<li>
+								  	<a href="http://www.aao.hcmut.edu.vn/" target="_blank">AAO</a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/truongdhbachkhoa" target="_blank">FANPAGE</a>
+								</li>
+							</ul>
+						</th>
+					</tr>
+				</table>
+			</nav>
+		</header>
+		<br><br><br><br><br>
+
+		<table class = "table_body" style="width:90%;">
+			<caption>
+				<h2 style = "color: darkslateblue; font-size: 180%;">Danh sách lớp VP18VT</h2>
+			</caption>
+
+			<tr style = "border-bottom: 2px solid gray; height: 50px;">
+			  	<th class = "th_body" style="width: 330px; min-width: 281px;">Họ và tên</th> 
+			  	<th class = "th_body" style="width: 100px; min-width: 100px;">MSSV</th>
+				<th class = "th_body" style="width: 100px; min-width: 90px;">Số ĐT</th>
+				<th class = "th_body" style="width: 300px; min-width: 270px;">Email</th>
+				<th class = "td_body" style="width: 200px; min-width: 180px"></th>
+			</tr>
+		</table>
+
+		<!-- <table class = "table_body" style="width:90%;">
+			<tr class = "tr_body">
+				<td class = "td_body" style="width: 200px; min-width: 170px;">Nguyễn Hồ Tuấn</td>
+				<td class = "td_body" style="width: 100px; min-width: 80px">Kiệt</td>
+				<td class = "td_body" style="width: 100px; min-width: 100px">1812727</td>
+				<td class = "td_body" style="width: 100px; min-width: 90px">0866022711</td>
+				<td class = "td_body" style="width: 300px; min-width: 270px">kiet.nguyenho@hcmut.edu.vn</td>
+				<td class = "td_body" style="width: 200px; min-width: 180px">
+					<input type="submit" value="Chỉnh sửa">
+					<input type="submit" value="Xóa">
+				</td>
+			</tr>
+		</table> -->
+
+		<div id="Post"></div>
+		<div id="Add"></div>
+		<div id="Form"></div>
+
+		<br>
+
+		<table style = "width : 90%;">
+			<tr>
+				<td>
+					<td style = "width: 45%; min-width: 500px"></td>
+					<td>
+						<a onclick="Form()">
+							<button class="btn3" style="font-family:Arial;">
+								<span>Tạo mới</span>
+							</button>
+						</a>
+					</td>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
